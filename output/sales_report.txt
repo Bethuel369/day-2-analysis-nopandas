@@ -1,0 +1,78 @@
+Number of rows: 50
+Columns: ['sale_id', 'sale_date', 'store', 'product', 'quantity', 'unit_price_kes', 'payment_method']
+
+Valid transactions: 47
+Skipped transactions: 3
+S-3030 - unit price: not a valid number
+S-3035 - quantity: value is empty
+S-3039 - unit price: value is empty
+
+TOTAL REVENUE: KES 1,317,210.00
+
+REVENUE BY PRODUCT
+HP 15 Laptop: KES 389,994.00
+Hisense 43in Smart TV: KES 272,993.00
+Lenovo Tab M10: KES 199,992.00
+Tecno Spark 20: KES 161,988.00
+Infinix Hot 40: KES 63,996.00
+Samsung Galaxy A15: KES 56,997.00
+JBL Go 3 Speaker: KES 49,491.00
+Anker Power Bank 20000: KES 38,691.00
+Xiaomi Redmi Buds: KES 31,990.00
+Oraimo FreePods: KES 19,593.00
+USB-C Charger 25W: KES 19,487.00
+Safaricom Neon Ray: KES 11,998.00
+
+REVENUE BY STORE
+Kisumu Mega Plaza: KES 449,678.00
+Nairobi CBD: KES 337,483.00
+Westgate: KES 235,979.00
+Mombasa City Mall: KES 154,082.00
+Nakuru Westside: KES 139,988.00
+
+REVENUE BY PAYMENT METHOD
+M-Pesa: KES 738,568.00
+Cash: KES 310,773.00
+Card: KES 267,869.00
+
+TOP THREE PRODUCTS
+1. HP 15 Laptop: KES 389,994.00
+2. Hisense 43in Smart TV: KES 272,993.00
+3. Lenovo Tab M10: KES 199,992.00
+
+SALES ABOVE KES 50,000.00
+S-3013 | Lenovo Tab M10 | Westgate | KES 99,996.00
+S-3017 | Hisense 43in Smart TV | Kisumu Mega Plaza | KES 155,996.00
+S-3022 | HP 15 Laptop | Nairobi CBD | KES 259,996.00
+S-3036 | Tecno Spark 20 | Nakuru Westside | KES 53,996.00
+S-3048 | HP 15 Laptop | Kisumu Mega Plaza | KES 129,998.00
+
+HIGH-VALUE SALES BY STORE
+Kisumu Mega Plaza: 2
+Mombasa City Mall: 0
+Nairobi CBD: 1
+Nakuru Westside: 1
+Westgate: 1
+
+TRANSACTION REVENUE STATISTICS
+Mean: KES 28,025.74
+Median: KES 10,998.00
+Minimum: KES 1,499.00
+Maximum: KES 259,996.00
+
+PANDAS VERIFICATION
+Valid rows: MATCH
+Skipped rows: MATCH
+Total revenue: MATCH
+Revenue by product: MATCH
+Revenue by store: MATCH
+Revenue by payment method: MATCH
+High-value transaction count: MATCH
+High-value transactions by store: MATCH
+Mean transaction revenue: MATCH
+Median transaction revenue: MATCH
+Minimum transaction revenue: MATCH
+Maximum transaction revenue: MATCH
+Top three products: MATCH
+
+All checks passed.
